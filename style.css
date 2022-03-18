@@ -1,0 +1,130 @@
+.row {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 50%;
+  float: left;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 0px), (max-width: 419px){
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20vw;
+    float: none;
+    font-size: 3em;
+  }
+}
+/* /MEDIA QUERY */
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 33%;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 0px), (max-width: 419px){
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    background-color: #f9f9f9;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20vw;
+    float: none;
+    font-size: 3em;
+  }
+
+  .row h1{
+    font-size: 5em;
+    margin-top: 3em;
+  }
+}
+/* /MEDIA QUERY */
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 0px), (max-width: 419px){
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    background-color: #f9f9f9;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20vw;
+    font-size: 3em;
+  }
+}
+/* /MEDIA QUERY */
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+  
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 0px), (max-width: 419px){
+  .container.grey {
+    background-color: inherit;
+  }
+
+}
+/* /MEDIA QUERY */
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
