@@ -13,6 +13,20 @@
 }
 
 /* MEDIA QUERY */
+/* Tablet */
+@media screen and (min-width: 419px), (max-width: 768px){
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20vw;
+    float: none;
+    font-size: 2em;
+  }
+
+}
+
+/* Mobile */
 @media screen and (max-width: 0px), (max-width: 419px){
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -23,6 +37,9 @@
     font-size: 3em;
   }
 }
+
+
+
 /* /MEDIA QUERY */
 
 #lezioni .row img {
@@ -45,6 +62,26 @@
 }
 
 /* MEDIA QUERY */
+/* Tablet */
+@media screen and (max-width: 419px), (max-width: 768px){
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    background-color: #f9f9f9;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20vw;
+    float: none;
+    font-size: 2em;
+  }
+
+  .row h1{
+    font-size: 3.5em;
+    margin-top: 1.5em;
+  }
+}
+
+/* Mobile */
 @media screen and (max-width: 0px), (max-width: 419px){
   #steps .row>.left,
   #steps .row>.central,
@@ -62,6 +99,7 @@
     margin-top: 3em;
   }
 }
+
 /* /MEDIA QUERY */
 
 #steps {
@@ -81,6 +119,20 @@
 }
 
 /* MEDIA QUERY */
+/* Tablet */
+@media screen and (max-width: 419px), (max-width: 768px){
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    background-color: #f9f9f9;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20vw;
+    font-size: 2em;
+  }
+}
+
+/* Mobile */
 @media screen and (max-width: 0px), (max-width: 419px){
   #why .row>.first,
   #why .row>.second,
@@ -113,6 +165,14 @@
 }
 
 /* MEDIA QUERY */
+/* Tablet */
+@media screen and (max-width: 419px), (max-width: 768px){
+  .container.grey {
+    background-color: inherit;
+  }
+}
+
+/* Mobile */
 @media screen and (max-width: 0px), (max-width: 419px){
   .container.grey {
     background-color: inherit;
